@@ -1,0 +1,36 @@
+.Title_Shooter {
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 40px;
+}
+.card-title {
+  text-align: left;
+}
+.card {
+  background-color: #00021a !important;
+}
+.card-title {
+  color: #ffff;
+  margin-right: 120px;
+}
+.card-text {
+  color: #b6b3b8;
+}
+.card:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.card:hover:after { 
+  width: 100%; 
+  left: 0; 
+}

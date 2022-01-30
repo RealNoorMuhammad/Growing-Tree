@@ -1,0 +1,50 @@
+.socail_icons_div {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.img_tittle_div {
+  text-align: flex-start;
+}
+.social_second_nav_div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.social_second_col_main_div {
+  padding-top: 60px;
+  color: #fff;
+}
+.social_second_nav_div {
+  padding-top: 25px;
+}
+.last_play_btn {
+  display: block;
+  background-color: orange;
+  border-radius: 30%;
+  border: 1px solid orange;
+}
+.img_tittle_div {
+  color: #fff;
+  align-items: center;
+}
+.socail_icons_div {
+  align-items: center;
+  font-size: 40px;
+}
+
+.social_logo {
+  width: "100px";
+  height: "100px";
+}
+
+@media screen and (max-width: 760px) {
+  .social_logo {
+    width: "100%";
+    height: "250px";
+  }
+}
+.soc_logo {
+  width: "100%";
+  height: "100px";
+}

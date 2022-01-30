@@ -1,0 +1,17 @@
+.about_us_tittle_div h1 {
+  text-align: start;
+  color: #fff;
+  font-weight: 900;
+  font-size: 35px;
+}
+.about_us_paragraph_main_div strong {
+  color: #fff;
+  padding-top: 35px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.about_us_paragraph_main_div p {
+  color: #fff;
+  padding-top: 20px;
+  line-height: 28px;
+}
